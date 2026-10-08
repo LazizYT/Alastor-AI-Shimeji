@@ -224,8 +224,8 @@ Alastor supports two switchable program execution modes:
    * `WindowSurfaceDetector.get_open_windows()` invokes `win32gui.EnumWindows()`.
    * Filters out minimized (`IsIconic`), child, tooltip, tiny, or system shell windows (`Progman`, `Shell_TrayWnd`).
    * The walkable platform coordinate is calculated as:
-     $$\text{floor\_y} = \text{rect.top} - \text{SIZE} + 15$$
-     $$\text{left\_edge} = \text{rect.left}, \quad \text{right\_edge} = \text{rect.right} - \text{SIZE}$$
+     `floor_y = rect.top - SIZE + 15`  
+     `left_edge = rect.left, right_edge = rect.right - SIZE`
 2. **Surface Snapping**:
    * When falling, `MascotPhysics.update()` detects if the mascot's horizontal bounds intersect an open window's top edge. If so, gravity stops and Alastor lands directly on top of the active window/tabs.
 3. **Window Edge Turnaround**:
