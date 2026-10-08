@@ -1,0 +1,13 @@
+pillow>=10.0.0
+requests>=2.30.0
+pywin32>=306
+winshell>=0.6; sys_platform == 'win32'
+transformers>=4.40.0
+torch>=2.0.0
+sounddevice>=0.4.6
+SpeechRecognition>=3.10.0
+keyboard>=0.13.5
+edge-tts>=6.1.0
+pedalboard>=0.9.0
+soundfile>=0.12.0
+scipy>=1.10.0

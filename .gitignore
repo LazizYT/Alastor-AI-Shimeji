@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtualenv
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# API Keys & Secrets
+ai_config.json
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec.bak
+Alastor.exe
+*.exe
+
+# Log files & diagnostics
+*.log
+alastor.log
+alastor_error.log
+
+# Temporary / OS / Editor files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+01.md
+.vscode/
+.idea/
+
+# Archives & Backups
+backup_project.zip
+*.zip
+*.tar.gz

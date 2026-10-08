@@ -1,0 +1,391 @@
+{
+  "websites": {
+    "youtube": {
+      "keywords": [
+        "ютуб",
+        "youtube",
+        "ютубчик",
+        "ютубе"
+      ],
+      "url": "https://www.youtube.com",
+      "reply": "Включаю YouTube! Приятного просмотра, мой друг! 📺"
+    },
+    "vk": {
+      "keywords": [
+        "вк",
+        "вконтакте",
+        "vk"
+      ],
+      "url": "https://vk.com",
+      "reply": "Открываю ВКонтакте! Поглядим на светские беседы! 💬"
+    },
+    "telegram_web": {
+      "keywords": [
+        "телеграм веб",
+        "тг веб"
+      ],
+      "url": "https://web.telegram.org",
+      "reply": "Открываю Telegram Web! ✉️"
+    },
+    "github": {
+      "keywords": [
+        "гитхаб",
+        "github"
+      ],
+      "url": "https://github.com",
+      "reply": "Открываю GitHub! Посмотрим на твои хитроумные алгоритмы! 🐙"
+    },
+    "twitch": {
+      "keywords": [
+        "твич",
+        "twitch"
+      ],
+      "url": "https://www.twitch.tv",
+      "reply": "Включаю Twitch! Прямой эфир — это моё призвание! 🎮"
+    },
+    "kinopoisk": {
+      "keywords": [
+        "кинопоиск",
+        "фильмы",
+        "кино"
+      ],
+      "url": "https://www.kinopoisk.ru",
+      "reply": "Открываю Кинопоиск! Время для кинематографа! 🎬"
+    },
+    "wikipedia": {
+      "keywords": [
+        "википедия",
+        "вики",
+        "wikipedia"
+      ],
+      "url": "https://ru.wikipedia.org",
+      "reply": "Открываю Википедию! Жажда знаний достойна похвалы! 📚"
+    },
+    "chatgpt": {
+      "keywords": [
+        "чатгпт",
+        "чат гпт",
+        "chatgpt"
+      ],
+      "url": "https://chatgpt.com",
+      "reply": "Открываю ChatGPT! Другой искусственный разум? Занятно... 🤖"
+    },
+    "wildberries": {
+      "keywords": [
+        "вайлдберриз",
+        "вайлдберис",
+        "вб",
+        "wildberries"
+      ],
+      "url": "https://www.wildberries.ru",
+      "reply": "Открываю Wildberries! Очередная сделка с быстрой доставкой! 🛍️"
+    },
+    "ozon": {
+      "keywords": [
+        "озон",
+        "ozon"
+      ],
+      "url": "https://www.ozon.ru",
+      "reply": "Открываю Ozon! Приятных покупок! 📦"
+    },
+    "music": {
+      "keywords": [
+        "яндекс музыка",
+        "яндекс музыку",
+        "yandex music",
+        "включи музыку",
+        "открой музыку",
+        "включить музыку",
+        "спотифай",
+        "spotify"
+      ],
+      "url": "https://music.yandex.ru",
+      "reply": "Музыка в эфире! Внимайте ритмам, дамы и господа! 🎷🎶"
+    },
+    "mail": {
+      "keywords": [
+        "почта",
+        "почту",
+        "gmail",
+        "мейл"
+      ],
+      "url": "https://mail.google.com",
+      "reply": "Открываю почту! Проверим ваши тайные депеши! ✉️"
+    }
+  },
+  "apps": {
+    "telegram": {
+      "keywords": [
+        "телеграм",
+        "телега",
+        "тг",
+        "telegram"
+      ],
+      "target": "telegram",
+      "reply": "Запускаю Telegram! Радиоволны несут сообщения! 📱"
+    },
+    "steam": {
+      "keywords": [
+        "стим",
+        "steam"
+      ],
+      "target": "steam",
+      "reply": "Запускаю Steam! Шоу и игры начинаются! 🎮"
+    },
+    "discord": {
+      "keywords": [
+        "дискорд",
+        "диск",
+        "discord"
+      ],
+      "target": "discord",
+      "reply": "Запускаю Discord! Собираем почтеннейшую публику! 🎙️"
+    },
+    "browser": {
+      "keywords": [
+        "браузер",
+        "интернет",
+        "хром",
+        "chrome",
+        "edge"
+      ],
+      "target": "https://www.google.com",
+      "reply": "Открываю браузер! Погружаемся в пучины сети! 🌐"
+    },
+    "calculator": {
+      "keywords": [
+        "калькулятор",
+        "кальк",
+        "calc"
+      ],
+      "target": "calc.exe",
+      "reply": "Калькулятор запущен! Подсчитаем наши грехи и доходы! 🧮"
+    },
+    "notepad": {
+      "keywords": [
+        "блокнот",
+        "заметки",
+        "notepad"
+      ],
+      "target": "notepad.exe",
+      "reply": "Открываю Блокнот! Запиши что-нибудь достойное истории! 📝"
+    },
+    "explorer": {
+      "keywords": [
+        "проводник",
+        "мой компьютер",
+        "файлы",
+        "папки"
+      ],
+      "target": "explorer.exe",
+      "reply": "Открываю Проводник! Исследуем закоулки твоей системы! 📁"
+    },
+    "taskmgr": {
+      "keywords": [
+        "диспетчер задач",
+        "диспетчер"
+      ],
+      "target": "taskmgr.exe",
+      "reply": "Диспетчер задач! Кто из процессов сегодня провинился? ⚡"
+    },
+    "settings": {
+      "keywords": [
+        "настройки",
+        "параметры"
+      ],
+      "target": "ms-settings:",
+      "reply": "Открываю параметры Windows! Подкрутим шестерёнки! ⚙️"
+    },
+    "terminal": {
+      "keywords": [
+        "терминал",
+        "консоль",
+        "командная строка",
+        "cmd",
+        "powershell"
+      ],
+      "target": "cmd.exe",
+      "reply": "Командная строка к твоим услугам! Власть над кодом! 💻"
+    },
+    "paint": {
+      "keywords": [
+        "пейнт",
+        "паинт",
+        "paint"
+      ],
+      "target": "mspaint.exe",
+      "reply": "Открываю Paint! Твори, мой юный художник! 🎨"
+    },
+    "vscode": {
+      "keywords": [
+        "вскод",
+        "vs code",
+        "vscode",
+        "код",
+        "visual studio code"
+      ],
+      "target": "code",
+      "reply": "Открываю Visual Studio Code! Время для великих алгоритмов! 💻✨"
+    },
+    "cs2": {
+      "keywords": [
+        "кс2",
+        "cs2",
+        "кс 2",
+        "counter-strike 2",
+        "контра 2"
+      ],
+      "target": "steam://rungameid/730",
+      "reply": "Запускаю Counter-Strike 2! Посмотрим на ваши тактические маневры! 🎯"
+    },
+    "cs16": {
+      "keywords": [
+        "кс 1.6",
+        "кс 16",
+        "cs 1.6",
+        "counter-strike 1.6",
+        "контра"
+      ],
+      "target": "steam://rungameid/10",
+      "reply": "Запускаю легендарную Counter-Strike 1.6! Классика никогда не умирает! 💣"
+    },
+    "nfs": {
+      "keywords": [
+        "nfs",
+        "most wanted",
+        "нфс",
+        "need for speed",
+        "гонки"
+      ],
+      "target": "speed.exe",
+      "reply": "Врубаю Need for Speed! Скорость и адреналин в эфире! 🏎️💨"
+    },
+    "obs": {
+      "keywords": [
+        "обс",
+        "obs",
+        "obs studio",
+        "стрим"
+      ],
+      "target": "obs64.exe",
+      "reply": "Запускаю OBS Studio! Готовимся к прямому радиовещанию! 🎙️🔴"
+    },
+    "aimp": {
+      "keywords": [
+        "аимп",
+        "aimp",
+        "плеер",
+        "музыкальный плеер"
+      ],
+      "target": "AIMP.exe",
+      "reply": "Включаю плеер AIMP! Пусть зазвучит отборная музыка! 🎵"
+    },
+    "potplayer": {
+      "keywords": [
+        "потплеер",
+        "potplayer",
+        "видеоплеер"
+      ],
+      "target": "PotPlayer64.exe",
+      "reply": "Открываю PotPlayer! Приятного просмотра, мой друг! 🎬"
+    },
+    "totalcmd": {
+      "keywords": [
+        "тотал командер",
+        "total commander",
+        "тотал"
+      ],
+      "target": "TOTALCMD64.exe",
+      "reply": "Запускаю Total Commander! Две панели абсолютной власти над файлами! 📂"
+    },
+    "flowlauncher": {
+      "keywords": [
+        "флоу лаунчер",
+        "flow launcher"
+      ],
+      "target": "Flow.Launcher.exe",
+      "reply": "Активирую Flow Launcher! Быстрый поиск в эфире! ⚡"
+    },
+    "scrcpy": {
+      "keywords": [
+        "сркпи",
+        "scrcpy",
+        "scrcpygui"
+      ],
+      "target": "scrcpy",
+      "reply": "Запускаю трансляцию экрана Scrcpy! 📱✨"
+    },
+    "zoom": {
+      "keywords": [
+        "зум",
+        "zoom"
+      ],
+      "target": "zoom.exe",
+      "reply": "Открываю Zoom! Видеоконференция с потусторонним миром! 📹"
+    },
+    "winrar": {
+      "keywords": [
+        "винрар",
+        "winrar",
+        "архиватор"
+      ],
+      "target": "WinRAR.exe",
+      "reply": "Запускаю WinRAR! Распакуем все ваши секреты! 📦"
+    },
+    "snippingtool": {
+      "keywords": [
+        "ножницы",
+        "скриншот",
+        "сниппинг",
+        "snipping tool"
+      ],
+      "target": "ms-screenclip:",
+      "reply": "Открываю Ножницы для захвата экрана! ✂️📸"
+    },
+    "stickynotes": {
+      "keywords": [
+        "записки",
+        "стикеры",
+        "sticky notes"
+      ],
+      "target": "explorer.exe shell:appsFolder\\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App",
+      "reply": "Открываю Записки Sticky Notes! 📝"
+    },
+    "weather": {
+      "keywords": [
+        "погода",
+        "прогноз погоды"
+      ],
+      "target": "bingweather:",
+      "reply": "Узнаем погоду! Обещают помехи и радиогрозу! ⛈️📻"
+    },
+    "camera": {
+      "keywords": [
+        "камера",
+        "вебка",
+        "веб-камера"
+      ],
+      "target": "microsoft.windows.camera:",
+      "reply": "Включаю камеру! Улыбнитесь в объектив! 📷"
+    },
+    "todo": {
+      "keywords": [
+        "туду",
+        "to do",
+        "задачи",
+        "список дел"
+      ],
+      "target": "ms-todo:",
+      "reply": "Открываю Microsoft To Do! Планируем захват эфира! 📋"
+    },
+    "clock": {
+      "keywords": [
+        "часы",
+        "будильник",
+        "таймер"
+      ],
+      "target": "ms-clock:",
+      "reply": "Открываю часы и таймер! Время неумолимо идет вперед! ⏰"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "voice": "ru-RU-DmitryNeural",
+  "rate": "+8%",
+  "pitch": "+2Hz",
+  "enabled": false,
+  "dsp_enabled": true,
+  "filter_profile": "canon_radio",
+  "demon_layer": true,
+  "add_vinyl": false,
+  "vinyl_intensity": 1.0,
+  "highpass_hz": 350.0,
+  "lowpass_hz": 3800.0,
+  "drive_db": 6.0,
+  "fish_audio_model_id": "f72fa1a264cf4795be99b7ab6b9617ef"
+}

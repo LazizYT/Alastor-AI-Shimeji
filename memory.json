@@ -1,0 +1,18 @@
+{
+  "user_profile": {
+    "name": "Лазико",
+    "role": "Владелец этого экрана",
+    "facts": [
+      "Род деятельности: программист"
+    ],
+    "interests": [],
+    "favorite_apps": []
+  },
+  "alastor_relationship": {
+    "first_met": "2026-10-02",
+    "total_interactions": 71,
+    "deals_struck": [],
+    "amusement_level": "Высокий"
+  },
+  "recent_topics": []
+}
